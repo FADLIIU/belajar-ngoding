@@ -1,0 +1,55 @@
+body{
+margin: 0;
+padding: 0;
+}
+
+.containernav{
+    background-color: lightblue;
+    height: 80px;
+    width: 100%;
+    float: left;
+}
+
+.brand{
+    color: black;
+    width: max-content;
+    height: max-content;
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 900;
+    margin-left: 10px;
+    line-height: 80px;
+    padding: 5px;
+    /* background-color: lightslategray; */
+}
+
+.containernav,ul{
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    position: right;
+    float: right;
+    margin: 10px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* nabar selesai */
+
+.judulconten{
+    background-color: gray;
+
+}
+
+.judulconten,h1{
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+}  
+/* lanjut disini */
